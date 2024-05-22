@@ -4,8 +4,6 @@ public class Pessoa{
     private String nome;
     private String profissao;
     private int idade;
-    public int anoAtual = 2024;
-    public int dataNasc = 2007;
 
     public Pessoa(String nome, String profissao, int idade) {
         this.nome = nome;
@@ -26,9 +24,6 @@ public class Pessoa{
                 this.idade += 4;
             }
         }
-
-
-
     }
 
     public String getNome() {
